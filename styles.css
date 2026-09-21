@@ -2,3 +2,11 @@ html {
     background-color: rgb(222, 222, 222);
     color: rgb(0, 75, 118);
 }
+
+.square-list {
+    list-style-type: square;
+}
+
+.letter-list {
+    list-style-type: upper-alpha;
+}
