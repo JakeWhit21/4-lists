@@ -10,8 +10,69 @@
     <h1>Nested Lists</h1>
 
     <div id="header-placeholder"></div>
-    
 
+    <ol>
+        <li>Breakfast</li>
+            <ul>
+                <li>Eggs</li>
+                <li>Waffles</li>
+            </ul>
+        <li>Lunch</li>
+            <ul>
+                <li>Sandwich</li>
+                <li>Salad</li>
+            </ul>
+        <li>Dinner</li>
+    </ol>
+
+    <p>
+        Now, create a nested list for a hypothetical navigation menu on a website about stuff in the solar system
+        (the indent shows you the site topics for each of the main menu topics). Turn off the bullet display with CSS,
+        since navigation doesn't use it. Also, you'll need to create hyperlinks inside each of the list items so that the menu is clickable.
+        There is nowhere for the link to go (this is all a pretend menu), so use an empty href attribute: &lt;li>&lt;a href="">linked text&lt;/a>&lt;/li>.
+        Also remember that nested lists go inside the parent list item.
+    </p>
+
+
+    <ul>
+        <li>Planets</li>
+            <ol>
+                <li>Mercury</li>
+                <li>Venus</li>
+                <li>Earth</li>
+                <li>Mars</li>
+                <li>Jupiter</li>
+                <li>Saturn</li>
+                <li>Uranus</li>
+                <li>Neptune</li>
+            </ol>
+    <br>
+        <li>Dwarf Planets</li>
+            <ul>
+                <li>Ceres</li>
+                <li>Pluto</li>
+                <li>Haumea</li>
+                <li>Makemake</li>
+                <li>Eris</li>
+            </ul>
+    <br>
+        <li>Planetoids</li>
+            <ul>
+                <li>Asteroids</li>
+                <li>The Kuiper Belt</li>
+                <li>Detached Objects</li>
+                <li>The Oort Cloud</li>
+            </ul>
+    <br>
+        <li>Space Junk</li>
+            <ul>
+                <li>Dead Spacecraft</li>
+                <li>Lost Equipment</li>
+                <li>Boosters</li>
+                <li>Weapon Debris</li>
+            </ul>
+    </ul>
+    
     <script>
         fetch('header.html')
             .then(response => response.text())

@@ -10,3 +10,8 @@ html {
 .letter-list {
     list-style-type: upper-alpha;
 }
+
+nav ul {
+    list-style-type: none;
+    padding: 20px;
+}
